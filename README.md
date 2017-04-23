@@ -23,14 +23,15 @@
 1. 在flow.ci的[dashboard](https://dashboard.flow.ci)页面直接点击**创建项目**。
 2. 选择Coding并选择对应的代码创库。
 3. 项目基础配置。选择苹果图标，Xcode版本，仓库分支。点击**开始构建**![](https://raw.githubusercontent.com/mzying2013/FlowCIGuide/master/1_project_base_config%402x.png)
-4. 工作流配置。这是个精细化的配置，编译和完成后
-5. Provisioning Profile（.mobileprovision文件） 和 证书（.p12文件）。
+4. fd
+5. 工作流配置。这是个精细化的配置，编译和完成后
+6. Provisioning Profile（.mobileprovision文件） 和 证书（.p12文件）。
 
 
 
 ##### 构建
 1. 自动构建。选择"构建列表"，一般等几秒钟就会出现你配置的分支信息了
-![]()
+![](https://raw.githubusercontent.com/mzying2013/FlowCIGuide/master/6_auto_build.png)
 
 2. 手动构建。如果你嫌自动构建读取分支信息慢，点击手动构建即可。
 
