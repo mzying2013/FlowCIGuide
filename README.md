@@ -36,8 +36,9 @@
 2. 手动构建。如果你嫌自动构建读取分支信息慢，点击手动构建，选择自己想构建的分支。
 ![](https://raw.githubusercontent.com/mzying2013/FlowCIGuide/master/7_manual_select_branch.png)
 
-3. 构建过程。点击构建当前构建条目（如果状态**准备资源**，则需要等待几秒钟。然后自动会变为**运行中**。），即可看到如下图的构建流程。通常编译会比较容易发生错误信息。按照错误提示修改项目，然后提交到Coding。**flow.ci**会自动同步并运行构建。
+3. 构建过程。点击构建当前构建条目（如果状态**准备资源**，则需要等待几秒钟。然后自动会变为**运行中**。），即可看到如下图的构建流程。通常编译会比较容易发生错误信息。按照错误提示修改项目，然后提交到Coding。**flow.ci**会自动同步代码库并运行构建。![](https://raw.githubusercontent.com/mzying2013/FlowCIGuide/master/8_build_error.png)
 
+4. 构建后。发布到fir.im平台。
 
 
 
