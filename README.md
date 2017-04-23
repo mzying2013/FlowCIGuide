@@ -1,4 +1,4 @@
-# iOS自动构建套件 - flow.ci + Coding + fir.im
+# iOS自动构建套件 - flow.ci + fir.im + Coding
 
 > 2017.04.23
 
@@ -24,7 +24,7 @@
 ##### 项目配置
 
 1. 在flow.ci的[dashboard](https://dashboard.flow.ci)页面直接点击**创建项目**。
-2. 选择Coding并选择对应的代码创库。
+2. 选择Coding并选择对应的代码仓库。
 3. 项目基础配置。选择苹果图标，Xcode版本，仓库分支。点击**创建**![](https://raw.githubusercontent.com/mzying2013/FlowCIGuide/master/1_project_base_config%402x.png)
 4. 工作流配置。这是个精细化的配置，指定构建分支。你还可以设置定时任务。每天下班的时候构建一次。如果你有多个Scheme（比如APP有iPhone和iPad版本，免费和收费版本），这个时候可以在**编译 - Scheme**指定特定的Scheme。**完成后**可以配置一些构建失败和成功的通知（添加构建成功邮箱地址，小心邮件爆炸哦）。
 5. 添加成员。输入你的组员和测试人员的Email地址，点击邀请。他们会收到标题为**Project invitation**的邮件。按照提示操作，就可加入你的团队了。
