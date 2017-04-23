@@ -41,8 +41,9 @@
 
 3. 构建过程。点击构建当前构建条目（如果状态是**准备资源**，则需要等待几秒钟。然后自动会变为**运行中**。），即可看到如下图的构建流程。通常编译阶段会比较容易发生错误信息。按照错误提示修改项目，然后提交到Coding。**flow.ci**会自动同步代码库并运行构建。![](https://raw.githubusercontent.com/mzying2013/FlowCIGuide/master/8_build_error.png)
 
-4. 构建后。发布构建的APP到fir.im平台。首先需要点击**工作流**中左边的"+"号并搜索fir，添加**fir.im上传插件**。在**FIR_API_TOKEN**框中填入**准备工作4**获取的**API Token**。如果一切顺利的话，你会在**fir.im - 我的应用**里面看到构建成功的APP包了。赶紧分享你的APP下载二维码吧。
-> 后面两个选项可以选填。**$FIR_CHANGELOG**用于显示在fir.im下载页面的更新日志。一般我会填“flow.ci build”。用于区分手动上传和flow.ci自动构建。![](https://raw.githubusercontent.com/mzying2013/FlowCIGuide/master/9_flow_update.png)
+4. 构建后。发布构建的APP到fir.im平台。首先需要点击**工作流**中左边的"+"号并搜索fir，添加**fir.im上传插件**。在**FIR_API_TOKEN**框中填入**准备工作4**获取的**API Token**。如果一切顺利的话，你会在**fir.im - 我的应用**里面看到构建成功的APP包了。赶紧分享你的APP下载二维码吧。![](https://raw.githubusercontent.com/mzying2013/FlowCIGuide/master/9_flow_update.png)
+> 后面两个选项可以选填。**$FIR_CHANGELOG**用于显示在fir.im下载页面的更新日志。一般我会填“flow.ci build”。用于区分手动上传和flow.ci自动构建。
+
 
 
 
